@@ -1,14 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    list-style-type: none;
+}
+
+body {
+    position: relative;
 }
 
 h2 {
-    margin-left: 30px;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+span {
+    font-weight: 900;
+}
+
+
+
+input {
+   padding: 3px 10px;
+   margin-left: 400px;
+   position: absolute;
+   top: -23px;
+   padding-right: 200px;
+   position: relative;
+   border: 1px solid #000;
 }
 
 img {
-    width: 30px;
-    height: 30px;
+    width: 16px;
+    height: 16px;
+    margin-left: 739px;
+    z-index: 110;
+    position: absolute;
+    top: 16px;
+}
+
+
+
+#bolsa {
+    margin-left: 300px;
+    top: -23px;
+}
+
+#user {
+    margin-left: 400px;
+    top: -23px;
+}
+
+.tam {
+    width: 24px;
+    height: 24px;
+}
+
+.categorias {
+    margin-top: 10px;
+}
+
+.categorias ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 110px;
+    margin-top: 32px;
+}
+
+.categorias ul li {
+    padding: 7px;
+}
+
+.categorias ul li a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#banner {
+    width: 65vw;
+    height: 55vh;
+    margin-left: 0;
+    margin-top: 185px;
+    margin-left: 230px;
+    margin-right: 230px;
+    border-radius: 9px;
+}
+
+.catalogos {
+    border: 1px solid #bdbdbd;
+    margin-top: 80vh;
+    padding: 8px;
+    padding-bottom: 90px;
+    margin-left: 50px;
+    margin-right: 1100px;
+    margin-bottom: 50px;
 }
