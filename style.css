@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
     margin: 0;
@@ -11,10 +11,15 @@
 body {
     position: relative;
 }
-
+.header {
+    background-color: #000;
+    padding: 26px;
+}
 h2 {
+    position: absolute;
     margin-left: 60px;
-    margin-top: 25px;
+    color: #fff;
+    top: 20px;
 }
 
 span {
@@ -27,10 +32,10 @@ input {
    padding: 3px 10px;
    margin-left: 400px;
    position: absolute;
-   top: -23px;
+   top: 0px;
    padding-right: 200px;
    position: relative;
-   border: 1px solid #000;
+   border: 1px solid #a7a7a7;
 }
 
 img {
@@ -39,7 +44,7 @@ img {
     margin-left: 739px;
     z-index: 110;
     position: absolute;
-    top: 16px;
+    top: 32px;
 }
 
 
@@ -54,9 +59,17 @@ img {
     top: -23px;
 }
 
+
+
 .tam {
     width: 24px;
     height: 24px;
+}
+
+.tam:hover {
+    width: 26px;
+    height: 26px;
+    transition: 0.3s;
 }
 
 .categorias {
@@ -138,4 +151,4 @@ img {
 
 #perfume {
     margin-top: 119vh;
-}
+} */
