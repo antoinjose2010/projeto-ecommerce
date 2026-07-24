@@ -1,302 +1,49 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HouseShop | Início</title>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-
-
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<body class="bg-gray-100 text-gray-800">
-
-    <header class="bg-white shadow-md sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-5">
-
-        
-            <h2 class="text-3xl font-extrabold">
-                <span class="text-indigo-600">House</span>Shop
-            </h2>
-
-
-            <form class="flex-1 max-w-2xl">
-                <div class="relative">
-                    <input 
-                        type="text" 
-                        placeholder="Buscar item..."
-                        class="w-full py-3 pl-12 pr-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-gray-50"
-                    >
-
-                    <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-gray-500"></i>
-                </div>
-            </form>
-
-  
-            <nav>
-                <ul class="flex items-center gap-6 text-2xl">
-
-                    <li>
-                        <a href="#" class="relative text-gray-700 hover:text-indigo-600 transition">
-                            <i class="fa-solid fa-bag-shopping"></i>
-
-                            <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
-                                2
-                            </span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="login.html" class="text-gray-700 hover:text-indigo-600 transition">
-                            <i class="fa-solid fa-user"></i>
-                        </a>
-                    </li>
-
-                </ul>
-            </nav>
-        </div>
-
-  
-        <nav class="border-t bg-white">
-            <ul class="max-w-7xl mx-auto px-6 py-3 flex gap-8 overflow-x-auto font-medium">
-
-                <li>
-                    <a href="#" class="hover:text-indigo-600 transition">
-                        Início
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#" class="hover:text-indigo-600 transition">
-                        Moda Masculina
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#" class="hover:text-indigo-600 transition">
-                        Moda Feminina
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#" class="hover:text-indigo-600 transition">
-                        Cosméticos
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#" class="hover:text-indigo-600 transition">
-                        Perfumaria
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#" class="hover:text-indigo-600 transition">
-                        Acessórios
-                    </a>
-                </li>
-
-            </ul>
-        </nav>
+<body>
+    <div class="cabeça1">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACTElEQVR4nO2Yu09UQRSH14iriSwYY6FUhs5eE61I7EwkIJUF/wCgobHXDrfWQhNaCkKl/4KRh8FH46ug8AFGEiwQozGazxw4mwxwHzNzZ93RzJfc5s455ze/nTlz791aLZFIJBKJRCKRKAPoBu4BG/wdvgD3gaO1kLBTtBPcDW1kQwufDVo4X++86q2HLrxN0KKd0KQdRTuhSTLiz39nBPhEOZ+BWeCMVdEOGXFhCxiM1cioRWw/8EDjvwMXCou2Y8IFk3PSBA4C05r2DjheuWgI8jSBOtAE1kq22UPgQMxGmg49cyNmI6s6dLkg9xLwG/i5q18iM7KNRf7UTiTvgRNOySHJ08RyLkAX8EjD55ySYzIiAKeBH5oy8M8aEYwjeSY2Ix906KplnYsavxKbkVv48Ss2I11qprUy1kRlxIdkJATJSFUjwBFgEngCfNNrCbgOHPYWL9fZAhaAa/JmXMkI0Ae8KDgwngOnqhqx0HkmMV5G5Nc2ir8EhoCGXsPAa0Ok7mvEQefpXh1bI7J1hFdAb8Z4ryEyXsGIi85EnpG1vO9nYF7HhgomdUVjHluaOGdsl0EPnQXj3qjeW7X9KmsUCPQQjoaFzmZG3lRrfzaNrzNXAVl2F+RP8zvATeCjh86mES9zvl3an8aSDxfEjLhsrQA68z4Ccn6jjZbVhMeAtxoz5uHBR2fcR6CuzwnhjTZcj14jRvF9x2KbdJaBQ74ifYZIFvIMOelrwkFn2fXBmyUiB4Is/6K+NrReHSaqrISFzlfpPdlOZSvxB4wQiMjGpaq4AAAAAElFTkSuQmCC" width="24" height="24" alt="truck--v1" id="camin">
+        <h3>Frete Grátis para compras acima de <span>R$200,00!</span> <a href="#">Veja condições!</a></h3>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADsUlEQVR4nO2a34tVVRTHd9OMOdPojNKLJSUj5kz5AwYLlEHwoT9AydHReguUVKQCf0REPlWg/dB5UlDBhqEsFH+WRcW9qSCSlr/SGEEcQ4ugRCtN5yOL+711GM+5586958zdA/OF+zB3rb3Wd8/ee621177ODWMYfgMYD8wH3gU+A74HeoBr+vTou0+l8zzwmPMBwERgHfAj0fhDnyicBN4CmioxgTbgAHA3QMj+2x8AHUAr0BgyrlEy0/kQOBEYb7b2ATMHYwJNwN6Ac9suq4AnyrA5AVgDXAzY3W3fJ8s+5+wBYCVwU45+0nmoStBHFbAQOC8fN4BlLkEHDwMfy/hfwGqgOjEH9/urAV4H/pbPbuNQrtExwNHAKjyVGON431OBC/J9OOzMFWuoHjguQ18DoxNnG8+hAfhWHI4NeGWABxVBDJ8DI1NjG8+lFvhSXPYM6FwCazXQwuOoVJkWx2c08IM4rSp20DTgNnDdEp7zBMAkRbJbwNPFDDikmS91ngFYLm4H4xRnS/GUnRPnGYBq4Iw4thVS3CmlRTEGs6SHbIzvF6TXXehA2dm4Coyo4EQyMb4fAn4F/rEUEaZgZbVhi/McwFZxnRcmfE/Cduc5yNVkhvVhwnzSmew8B9Airl+ECc9JWOM8BzBCXM+GCX+xhJPy4c6WYDsbwcmuFFfCBL1Wpqc8kUwJtjMDnYglQSpZICa1tfKHfZIb4of9HQkXO89BrnkRGX7nSrjZeQ5gm7jOjbqbW5n8e4VLlGwRJcpvutPXRyl1yViHx7XWi9LrKqRkzbM+NRp8LONrAol7VpzyLimucJ6BXG/NsL/YbuINJZwnnScAmsXJyveWYgct08wtSTakzjKeTyNwWpxeG2iLdHugp1WbKtPCXOrEAW37qlLKgK9k4DtgbGpsC69ERhys41lXTnMs33235nJr4myjfU8HfpbvbNmdToW8Thm8lXabiJy/N3SoDR+VvBIRDtpluDcxo/e3aRcHVsEahEvScPSoHBxJ2G6TnhEuyX6f3iAfT9JP2IW/M0K+FHgfeAl4Bnik/7XZAgYwQ72pTf3eHu/operZVCYQIJHvzj8X0v2z98AoWBL7s4Dc3h7fTOWprT+AccC/Wv7/4rhlfuAbEbLG3gK9Ke5QyLYkdkWyHr1xfAK8rWvDODeYADaK7Mv627bNBkUxVMg1O58BTBFh2yKvKrvmJ4BK//B7gU/g//IgiD5tqTluqIBcQrqsXyhYWHxlKHQjhzEMlwzuAeaWS1mfr3ZQAAAAAElFTkSuQmCC" width="24" height="24" alt="chat-message--v1" id="aten">
+        <a href="#" class="navegar1">Atendimento</a>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA7klEQVR4nO3UPUoDURDA8ZDClLFUrPUKehLxEMZjaCOKB9LSjyqLB9BG1EqRiJY/GVwhjfo2TD4I+4eBZXeW/5s3816n07KIoIcDXOO9jngexLdpSTdQ+Z1h5Eyj0uoP6bg8r3Lf21vKfqb4poH4KlM8aiAeZYobMa+K35aix4N5TXWvPqP/ETkraeKxm2s405vrh6gmtjL6WA9cxGX9LrfSlpmCLnZwhAs84bOOR5zjENuRmyFcxwmeG5zjWNQx1iYRruIMHyYn/j1Fv1S6hXt53GGzRHwrn6pEHMOSzUOJeA+vidIX7Bb1uWWp+AK3aDl9rK/F7wAAAABJRU5ErkJggg==" width="24" height="24" alt="user--v1" id="conta">
+        <a href="#" class="navegar2">Minha Conta</a>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+ElEQVR4nO2UTQ7BQBhAS+IIYs1p2BNiK3EYscDOMdBbCCfQpd8tCxLJEzESkU87rc5HxEu66KTfvNdOUs/78+cbAbJAE5gAK+AMbMx9FcgJMzmgBvjm2bOZHQON65628hIwJ5wAKD/MVMxaGDOgaCPfYU/XXLZsX0Zw++xRb54GU/E4uJ25FnUpwFcMGEkBa8WApRRwUgw4SgGBYsBCCugqBnSkgAJwUJDvgfyrf0FbIaAlyu8APYfynhcFkAH6DuTD696RAY4i7OUOIuLLU4xILk8h4n35U8TgI/IEEenLY0S4k1tEuJeHROjJhQh9+VPEZ+Ter3ABdjl/V6TN8voAAAAASUVORK5CYII=" width="24" height="24" alt="filled-heart" id="desejos">
+        <a href="#" class="navegar3">Meus Desejos</a>
+    </div>
+    <header>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADsElEQVR4nO1aPaxVRRAeIOHdmXu1gEaoeFY+E9EGKBAoCO9xZs4jRLmxwEqfCX8hYiWVUPBT8FNhBwUCEqACK22kEwqFimcCmECEShv+gmc2a/acvdeHue/d3cODuyF8ySY39+zMzpydnZ2fA/AavWHbMF/zxieG6XsVnFShh9XASSN0xj1zcyBlqGBbmW4bITvTUKFbRYYfQ2qwbZhnhI78Jyj+qoI7LLdG7DpoloNbI+4/FfytqxTjIUcLqcB4JVToiQp9ZgHmTDfXfgNzNaMJN7ejDKRiTsYpwfTYZo2VoXQ2b3zYUaZg/OjFShlysP2ZcDsBkVChLzztzYE6AHXeyZ8JZzKx9KWZMV7zPNowKBims6UQGW6vy0MZd1aHH0/PrnQxQgj97oSweeudujzs+ta7fkcmYVBQpgelIm1o1eXhaL2zeACDQuc+SIXPq6+IMj3qF268rKFMj2opYTe+sXDQwpv/DTv65oJ4RZg+6OdNXpZpacc7Cr0fzbzIcdz79x/rChCKfnyM4E9lKJNRHs1cGbf5oO5Er+dF3lzbEcD9jl4ggo9hPFGdE9wWvYARPOh3ZE+v5y6nmJJf3KyhQzAfI7jXy3IgegHDeKoKP2hiGgHuTvEod2roEMxHM5rw1nGqzgKXq+2m0V7Pi4wyJ4RbvGBaX0OHYD5FTqN+xy5HL6BCfzxvHDVbsNwa8Tt2u0Z4TU+fN46aLdhOPCb0T1S6YDfgYn+H/AWJQAX/Ll/sGC0KJrKMK7y7uwaJQBmvV5ciLo/Oww3TRUgERvBS6XwENwUTad74yrvEY5AIDNO33kp2xRAd9V7ia0gEKrTbv9wjwURG6EJ12JubIREoNz/15n4+goiuVgersQoSgeXGam8lV4KJVPB+5eqGlkAisONDw/5KuBdTdDNupFQ1t7FyWRl622/hn5AYVPBeaSnjQ8N9J9u8scaHA79AYlCmK6Ui3Fgd7h2EzkFiMEzng71p118zHYbEYDrti5D7rXuDCn4JiUEZdwVHHEbwhyrRT681Vghu8invpfAoM8dlkBis4PLgqLwb9zO9BYnBjtGioDxpSmX8aZ3GzYuGDc1cu7mx0C1IFOpbfTPWErrVCqafIVFop7qTNddNP4npc+8VTkKiMILf9W2+uqqiL4Ttg0RhGPfPVAF9tsaa4xZIFCq41b/s49C36s0kkCiKjPJ+XQLwX/BYmzXfg0Rhx5tL/aV4Y9pJ7nOkQXelTGgrTuhhb00TbLX1G1Nbcf8C+8ohojRd6sgAAAAASUVORK5CYII=" width="45" height="45" alt="shopping-bag--v1" id="bolsa">
+        <h1>House<span>Shop</span></h1>
+        <p>Tudo para você!</p>
+        <select id="categorias" name="categoria">
+            <option value="Todas as Categorias">Todas as Categorias</option>
+            <option value="Eletrônica">Eletrônica</option>
+            <option value="Informática">Informática</option>
+            <option value="Calçados">Calçados</option>
+            <option value="Cozinha">Cozinha</option>
+            <option value="Oficina Mecânica">Oficina Mecânica</option>
+        </select>
+        <input type="text" placeholder="O que você busca?">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACuklEQVR4nO2Zy05TURSGNwNx6oTWcBmgj+AAxMsrmCiYQk2I+gAmqLEhAZ0BL2DiSB2YkMaBWsJYixNvb+DEqTrCiEKrn1l0nbg9aaAb1ml76vmTk5708v/rb/dae+1V5zJk6D4Ax4FrwGPgA/AV2NHrC/BeX7sK5F23ATgPVIAarUPe+wI41w0GTgLrXnB14BUwB4wBOeCIXnI/DtwEqvreCGvAiU6ZKALfNJDvwBIwEPB5MbYMbCnHJjCdbNQxAIvet7kKDLkDAhgGyh7fwkG5ggDcU8Hfet9nxHsD+NUWMzSWEyo4mQD/lGemYM3vJ3aUE3cSEWnolLycGU1CIKpOq+bk/+r0eTlTSWKfQCvMiCl5c70hrYSCs5bEstkJlsxI99eU0ix4btl21HQDa3mfMNCVfaau7U3OgvC6fjMvTSIM095Q7VkLMmnyBHMm0YVp31LthxZk0sUKxkyiC9OeUO23FmTSitPO/PC086r92YJsW8n6TaIL0z6q2j97xchmryytj5bJPm4SXZj2GdXe6JXy+8CCTIYJgqpJdGHar1X7otU6jVqUw7cK4S1KDThmRSrTDsGyCWFrmiuqWbYkPa2kPzrQxp+yJo9a+bLVOX2Pg9VT1XqWhMCoHj8FJXOBvzrzqiGTycGkRKZVRAYEUwnwX/aGDxes+eNiC56ZksUy0+U075mQx6JNxK2ZiXJm+BBcI15O+JDSO2MbefMACl7ObOkZOxe4T6xoJdxtDGPz4MhM8mNULQCVmHBVW4sJ3Uz79crrc7f1CFuPjV0H5RfomBmBjGxk2hH4t4IcD57Em9E9zBRcu6DLZRZ4BLzTErqtm9sn4A1wX5flwD7VsbNmjOfAtSZmrrgeMlN0aQM9ZmbyfzAz41JqZiczk5ICsOjSCOCS98vcdWkGjWXWnr+zM2Rwu/gDqVXBkvjeS4UAAAAASUVORK5CYII=" width="41" height="41" alt="search--v1" id="lupa">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA70lEQVR4nO3UQUrDQBSH8R8umqVdWrrWK+hJxEPYHsNuRPFAurR1ZfEAuinVlUUUXVYGJiCCdNJObCn54A8heeGbl8wbGjaUAn2M8BETrnvxWS10Mcb8j9zHmqwUC6Q/5Vk77ydIy5zmFN9VEA9zit8riENtNuYVs5aO37biH/fWtauLOKMpc9ySme4CeS0nV0krfsph3HAht/Fe9k4b/pUdHGGAGzzjK2aKa5zhMNauTAcXeKkwx2FR59hbRtjGFT6XOKfLhHcvsZsqPcDTCsLfecR+ivgho7TMOEU8rUE8SRGfYJZR+orjFHHDdvENyZP0ibBvoI8AAAAASUVORK5CYII=" width="24" height="24" alt="user--v1" id="con">
+        <a href="#" id="entrar">Entrar</a>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA5ElEQVR4nO3WrwrCQBzA8W+waFVQo/gIJpPB4hCsgqBPYDHrA4gvIZh8g3UNaza7OLOCYeDfiXBBLN7N305Bv3Dtx3243WCDX20OhGqtgOYn4BA4AUUsN1H4wDbcULBnG04BAXABsrZxV526YxvuPr1sUmv2Ci7EBG90Tr2MAR7rwKMY4JYOXBFGr0BOB04AO0F4gUFTQXhoArcF4aoJnAHOAmgAJDHME4BdItQXgHtR4DywfwPdAmkiVlaP/GgAHtQPRikq+rvV1dfFBxyBOe38h/tbC8x9P+yoTe+b1QTm/mGlGw7LH6npIjrWAAAAAElFTkSuQmCC" width="24" height="24" alt="shopping-cart--v1" id="car">
+        <a href="#" id="carrinho">Carrinho</a>
+        <p id="quant">0</p>
     </header>
-
-
-    <section class="max-w-7xl mx-auto px-6 mt-8">
-        <div class="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-3xl overflow-hidden shadow-xl">
-
-            <div class="p-10 md:p-16 flex flex-col md:flex-row items-center justify-between gap-10">
-
-                <div class="text-white max-w-xl">
-                    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
-                        As melhores ofertas da temporada
-                    </h1>
-
-                    <p class="mt-4 text-lg text-gray-100">
-                        Moda, perfumes e acessórios com descontos especiais.
-                    </p>
-
-                    <button class="mt-6 bg-white text-indigo-600 font-bold px-6 py-3 rounded-xl hover:scale-105 transition">
-                        Comprar agora
-                    </button>
-                </div>
-
-                <div class="text-white text-8xl">
-                    <i class="fa-solid fa-bag-shopping"></i>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="max-w-7xl mx-auto px-6 mt-12">
-
-        <div class="flex items-center justify-between mb-6">
-            <h3 class="text-2xl font-bold">
-                Categorias
-            </h3>
-
-            <a href="#" class="text-indigo-600 font-semibold hover:underline">
-                Ver tudo
-            </a>
-        </div>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-
-            <!-- Card -->
-            <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
-
-                <div class="flex items-center justify-between">
-                    <div>
-                        <p class="text-gray-500">Moda</p>
-
-                        <h4 class="text-2xl font-bold mt-1">
-                            Feminina
-                        </h4>
-                    </div>
-
-                    <div class="bg-pink-100 text-pink-600 w-14 h-14 rounded-xl flex items-center justify-center text-2xl">
-                        <i class="fa-solid fa-shirt"></i>
-                    </div>
-                </div>
-
-                <button class="mt-6 w-full bg-indigo-600 text-white py-3 rounded-xl hover:bg-indigo-700 transition">
-                    Explorar
-                </button>
-            </div>
-
-        
-            <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
-
-                <div class="flex items-center justify-between">
-                    <div>
-                        <p class="text-gray-500">Moda</p>
-
-                        <h4 class="text-2xl font-bold mt-1">
-                            Masculina
-                        </h4>
-                    </div>
-
-                    <div class="bg-blue-100 text-blue-600 w-14 h-14 rounded-xl flex items-center justify-center text-2xl">
-                        <i class="fa-solid fa-user-tie"></i>
-                    </div>
-                </div>
-
-                <button class="mt-6 w-full bg-indigo-600 text-white py-3 rounded-xl hover:bg-indigo-700 transition">
-                    Explorar
-                </button>
-            </div>
-
-
-            <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
-
-                <div class="flex items-center justify-between">
-                    <div>
-                        <p class="text-gray-500">Beleza</p>
-
-                        <h4 class="text-2xl font-bold mt-1">
-                            Perfumes
-                        </h4>
-                    </div>
-
-                    <div class="bg-yellow-100 text-yellow-600 w-14 h-14 rounded-xl flex items-center justify-center text-2xl">
-                        <i class="fa-solid fa-spray-can-sparkles"></i>
-                    </div>
-                </div>
-
-                <button class="mt-6 w-full bg-indigo-600 text-white py-3 rounded-xl hover:bg-indigo-700 transition">
-                    Explorar
-                </button>
-            </div>
-
-        </div>
-    </section>
-
-
-    <section class="max-w-7xl mx-auto px-6 mt-14 mb-14">
-
-        <div class="flex items-center justify-between mb-6">
-            <h3 class="text-2xl font-bold">
-                Ofertas Masculinas
-            </h3>
-
-            <a href="#" class="text-indigo-600 font-semibold hover:underline">
-                Ver mais
-            </a>
-        </div>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-
-   
-            <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-2xl transition">
-
-                <div class="h-56 bg-gray-200 flex items-center justify-center text-6xl text-gray-400">
-                    <i class="fa-solid fa-shirt"></i>
-                </div>
-
-                <div class="p-5">
-
-                    <h4 class="font-bold text-lg">
-                        Camisa Premium
-                    </h4>
-
-                    <p class="text-gray-500 text-sm mt-1">
-                        Conforto e estilo para o dia a dia.
-                    </p>
-
-                    <div class="flex items-center justify-between mt-4">
-
-                        <span class="text-2xl font-extrabold text-indigo-600">
-                            R$ 89,90
-                        </span>
-
-                        <button class="bg-indigo-600 hover:bg-indigo-700 text-white w-11 h-11 rounded-xl transition">
-                            <i class="fa-solid fa-cart-plus"></i>
-                        </button>
-
-                    </div>
-
-                </div>
-            </div>
-
-    
-            <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-2xl transition">
-
-                <div class="h-56 bg-gray-200 flex items-center justify-center text-6xl text-gray-400">
-                    <i class="fa-solid fa-shoe-prints"></i>
-                </div>
-
-                <div class="p-5">
-
-                    <h4 class="font-bold text-lg">
-                        Tênis Casual
-                    </h4>
-
-                    <p class="text-gray-500 text-sm mt-1">
-                        Modelo moderno e confortável.
-                    </p>
-
-                    <div class="flex items-center justify-between mt-4">
-
-                        <span class="text-2xl font-extrabold text-indigo-600">
-                            R$ 149,90
-                        </span>
-
-                        <button class="bg-indigo-600 hover:bg-indigo-700 text-white w-11 h-11 rounded-xl transition">
-                            <i class="fa-solid fa-cart-plus"></i>
-                        </button>
-
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
+    <!-- <div>
+        <a href="#">Início</a>
+        <a href="#">Produtos</a>
+        <a href="#">Lançamentos</a>
+        <a href="#">Promoções</a>
+        <a href="#">Mais Vendidos</a>
+        <a href="#">Suporte House</a>
+    </div> -->
 </body>
 </html>
