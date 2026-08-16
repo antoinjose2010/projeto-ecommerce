@@ -292,3 +292,233 @@ header input {
     margin-left: 10px;
     margin-right: 8px;
 }
+
+#proh3 {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.destaks {
+    margin-top: 40px;
+    margin-left: 65px;
+    position: relative;
+}
+
+#off {
+    padding: 5px;
+    font-size: 14px;
+    background-color:rgb(253, 75, 10);
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 1289px;
+    z-index: 99;
+    position: absolute;
+    top: 5px;
+    left: -40px;
+
+
+}
+
+#novo {
+    padding: 4px;
+    font-size: 14px;
+    background-color:chartreuse;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 1289px;
+    z-index: 99;
+    position: absolute;
+    top: 40px;
+    left: -40px;
+}
+
+#nome-iphone {
+    position: absolute;
+    left: -40px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.destaks h4 {
+    position: absolute;
+    left: -40px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+#antigo {
+    position: absolute;
+    left: 75px;
+    margin-top: 39px;
+    font-size: 14px;
+    color: rgb(68, 66, 66);
+}
+
+#parce {
+    position: absolute;
+    left: -40px;
+    margin-top: 65px;
+    font-size: 15px;
+}
+
+#traço {
+    position: absolute;
+    left: 75px;
+    margin-top: 33px;
+    font-size: 14px;
+    color: rgb(68, 66, 66);
+}
+
+
+.destaks2 {
+    margin-top: -121px;
+    margin-left: 310px;
+    position: relative;
+}
+
+#off2 {
+    padding: 5px;
+    font-size: 14px;
+    background-color:rgb(253, 75, 10);
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 1289px;
+    z-index: 99;
+    position: absolute;
+    top: 5px;
+    left: -40px;
+
+
+}
+
+#novo2 {
+    padding: 4px;
+    font-size: 14px;
+    background-color:chartreuse;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 1289px;
+    z-index: 99;
+    position: absolute;
+    top: 40px;
+    left: -40px;
+}
+
+#nome-notebook {
+    position: absolute;
+    left: -40px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.destaks2 h4 {
+    position: absolute;
+    left: -40px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+#antigo2 {
+    position: absolute;
+    left: 75px;
+    margin-top: 39px;
+    font-size: 14px;
+    color: rgb(68, 66, 66);
+}
+
+#parce2 {
+    position: absolute;
+    left: -40px;
+    margin-top: 65px;
+    font-size: 15px;
+}
+
+#traço2 {
+    position: absolute;
+    left: 75px;
+    margin-top: 33px;
+    font-size: 14px;
+    color: rgb(68, 66, 66);
+}
+
+.destaks3 {
+    margin-top: -121px;
+    margin-left: 550px;
+    position: relative;
+}
+
+#off3 {
+    padding: 5px;
+    font-size: 14px;
+    background-color:rgb(253, 75, 10);
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 1289px;
+    z-index: 99;
+    position: absolute;
+    top: 5px;
+    left: -40px;
+
+
+}
+
+#novo3 {
+    padding: 4px;
+    font-size: 14px;
+    background-color:chartreuse;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 1289px;
+    z-index: 99;
+    position: absolute;
+    top: 40px;
+    left: -40px;
+}
+
+#nome-smartwatch {
+    position: absolute;
+    left: -40px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.destaks3 h4 {
+    position: absolute;
+    left: -40px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+#antigo3 {
+    position: absolute;
+    left: 75px;
+    margin-top: 39px;
+    font-size: 14px;
+    color: rgb(68, 66, 66);
+}
+
+#parce3 {
+    position: absolute;
+    left: -40px;
+    margin-top: 65px;
+    font-size: 15px;
+}
+
+#traço3 {
+    position: absolute;
+    left: 75px;
+    margin-top: 33px;
+    font-size: 14px;
+    color: rgb(68, 66, 66);
+}
+
+
+
+
+
